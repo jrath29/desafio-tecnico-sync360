@@ -1,6 +1,6 @@
 <div>
     <h1 align="center">Sistema de Usuários</h1>
-    <p>Projeto de sistema para cadastrar, atualizar e deletar usuários. Desenvolvido com React no Front-End, Node.js + Prisma.io no Back-End e banco de dados MySQL</p>
+    <p>Projeto de sistema para cadastrar, atualizar e deletar usuários. Desenvolvido com React no Front-End, Node.js + Prisma.io no Back-End, banco de dados MySQL e API do ImgBB para salvar imagens.</p>
     <h3>Instruções</h3>
     <p>Para criar o banco de dados no MySQL, execute essa query: CREATE DATABASE users</p>
     <p>Executar <strong>Back-End</strong>: cd backend > npx prisma migrate dev > node --watch.server.js/p>
