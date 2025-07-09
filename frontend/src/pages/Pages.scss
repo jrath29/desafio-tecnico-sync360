@@ -1,0 +1,55 @@
+#home{
+    @media(max-width: 840px){
+      display: block !important;
+      text-align: center;
+    }
+
+    #iframeHome{
+        height: 500px;
+
+        @media(max-width: 840px){
+          height: 300px;
+          width: 100%;
+        }
+    }
+
+    .btn{
+      @media(min-width: 840px){
+        display: none;
+      }
+    }
+}
+
+#cards{
+  .card{
+    width: 18rem;
+    text-align: center;
+    border-radius: 20px;
+
+    img{
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}
+
+#profile{
+  gap: 100px;
+
+  @media(max-width: 840px){
+    display: block !important;
+
+    iframe{
+      display: none;
+    }
+  }
+
+  .img-profile{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
